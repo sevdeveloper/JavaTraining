@@ -19,6 +19,7 @@ public class HelloWorld {
 		Configuration cfg = new ConfigXML();
 		
 		System.out.println(cfg.getZZZ());
+		System.out.println("TestBranch");
 	}
 
 }
