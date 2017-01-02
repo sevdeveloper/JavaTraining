@@ -16,7 +16,7 @@ public class HelloWorld {
 	 */
 	public static void main(String[] args) {
 		System.out.println("Op!");
-		Configuration cfg = new ConfigDB();
+		Configuration cfg = new ConfigXML();
 		
 		System.out.println(cfg.getZZZ());
 	}
