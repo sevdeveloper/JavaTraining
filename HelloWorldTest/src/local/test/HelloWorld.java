@@ -16,6 +16,10 @@ public class HelloWorld {
 	 */
 	public static void main(String[] args) {
 		System.out.println("Op!");
+		configTest();
+	}
+	
+	private static void configTest() {
 		Configuration cfg = new ConfigXML();
 		
 		System.out.println(cfg.getZZZ()+"t2!");
