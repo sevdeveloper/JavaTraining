@@ -30,12 +30,12 @@ public class HelloWorld {
 	}
 	
 	private static void rxLibTest() {
-		Observable<String> values = Observable.just("one", "two", "three");
+		Observable<Integer> values = Observable.range(10, 15);
 		Subscription subscription = values.subscribe(
-		    z -> System.out.println("Received: " + z),
+		    v -> System.out.println("Received: " + v),
 		    e -> System.out.println("Error: " + e),
 		    () -> System.out.println("Completed")
-		);  
+		);
 	}
 
 }
